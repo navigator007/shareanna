@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+.hb_eatThere{
+	margin: 0;
+    padding: 35px;
+    position: fixed;
+    float: left;
+    list-style-type: none;
+    left: 500px;
+    top: 180px;
+    bottom: 0;
+    
+}
+
+.div_alignSearch{
+	position:fixed;
+	top:70%;
+	left:10%;
+}
+.div_alignSearch li{
+	list-style-type: none;
+	padding: 0px;
+	display: inline-table;
+	}
+.form_alignSearch input{
+	font-size:18pt;
+     height:40px;
+}
+.form_alignSearch button{
+	height:45px;
+	width: 140px;
+	position:fixed;
+	top:70%;
+	font-size: x-large;
+	background-color: #f57900;
+}

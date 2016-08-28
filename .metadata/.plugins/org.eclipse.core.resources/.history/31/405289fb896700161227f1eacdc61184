@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+.hb_eatThere{
+	margin: 0;
+    padding: 35px;
+    position: fixed;
+    float: left;
+    list-style-type: none;
+    left: 400px;
+    top: 300px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>take-away, food sharing</title>
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+<div id = "main_header">
+	<header>
+		<h1>Welcome to share anna</h1>
+	</header>
+</div>
+<ul>
+<li>
+	<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  </li>
+  </ul>
+</div>
+	<div id = "section">
+	<section>
+		<aside>
+			<h4>News</h4>
+			Food from Neighbourhood
+		</aside>
+	</section>
+	</div>
+	<footer> Copyright Shareanna 2016 </footer>
+</body>
+</html>

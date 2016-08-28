@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>take-away, food sharing</title>
+<link rel="stylesheet" href="css/home.css">
+<link rel="icon" href="images/logo.png">
+</head>
+<body>
+<!--  
+	<div id="main_header">
+		<header>
+			<h1>Welcome to share anna</h1>
+		</header>
+	</div>
+	-->
+	<div id = "title_alignment">
+	<ul>
+	<li>
+	<a href="http://www.w3schools.com">
+	<img src="images/logo.png" alt="Smiley face" height="100" width="100">
+	</a>
+	</li>
+	</ul>
+	</div>
+	<div>
+		<ul class="menu_dropdown">
+			<li>
+				<div class="dropdown">
+					<button class="dropbtn">Start sharing</button>
+					<div class="dropdown-content">
+						<a href="#">Share your dish and earn</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">
+					<button class="dropbtn">Help</button>
+					<div class="dropdown-content">
+						<a href="#">Getting started guide</a> <a href="#">How to place
+							order</a> <a href="#">How price is determined</a> <a href="#">How
+							payments are processed</a> <a href="#">How my dish reaches me?</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown_custom">
+					<a href="#">SignUp</a>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown_custom">
+					<a href="#">Login</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<footer> Copyright Shareanna 2016 </footer>
+</body>
+</html>

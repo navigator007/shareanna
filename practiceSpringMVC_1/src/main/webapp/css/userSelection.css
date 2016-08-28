@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+.userOptionsPreLoaded{
+	position:fixed;
+	top:30%;
+	left:20%;
+}
+.userOptionsPreLoaded li{
+	list-style-type: none;
+	padding: 0px;
+	display: inline-table;
+}
+.userOptionsPreLoaded input{
+	font-size:12pt;
+     height:25px;
+}

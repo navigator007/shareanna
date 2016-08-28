@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding: 0px;
+}
+header ,section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	text-align:left;
+}
+#main_header{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	background: none;
+	text-decoration: blink;
+}
+
+/* Dropdown button section -- start */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.menu_dropdown{
+	margin: 0;
+    padding: 5px;
+    position: fixed;
+    float: right;
+    list-style-type: none;
+    right: 130px;
+}
+
+.menu_dropdown li{
+	float: left;
+}
+.menu_dropdown a{
+	display: block;
+	background-color: #dddddd;
+}
+.dropdown_custom{
+	background-color: #4CAF50; 
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+}
+.dropdown_custom a:hover, a:active {
+background-color: #3e8e41;
+}
+.dropdown_custom a{
+	text-decoration: none;
+	background: none;
+	color: black;
+    display: block;
+    color: white;
+}
+
+.input[type=text]{
+	 width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input[type=text]:focus {
+    width: 100%;
+}
+.align_header{
+	margin: 0;
+    padding: 5px;
+    position: fixed;
+    float: right;
+    list-style-type: none;
+    right: 130px;
+}
